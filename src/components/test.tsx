@@ -14,12 +14,6 @@ describe('<App />', () => {
     ).toBeInTheDocument()
 
     expect(
-      screen.getByText(
-        /This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier./i
-      )
-    ).toBeInTheDocument()
-
-    expect(
       screen.getByRole('link', {
         name: /start building for free/i
       })

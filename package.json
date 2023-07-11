@@ -1,12 +1,12 @@
 {
-  "name": "reactjs-vite-tailwindcss-boilerplate",
-  "description": "This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.",
+  "name": "genealogy-view",
+  "description": "Genealogy View",
   "version": "0.1.0",
   "private": true,
   "author": {
-    "name": "João Paulo Moraes",
-    "email": "joaopaulomoraes@outlook.com",
-    "url": "https://github.com/joaopaulomoraes"
+    "name": "Kaiser Shen",
+    "email": "tianyukaiser@gmail.com",
+    "url": "https://github.com/ShenTianyuKaiser/genealogy-view"
   },
   "bugs": {
     "url": "https://github.com/joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate/issues",
@@ -22,6 +22,9 @@
     "typecheck": "tsc --project tsconfig.json --noEmit"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.18",
+    "ahooks": "^3.7.8",
+    "antd": "^5.6.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
